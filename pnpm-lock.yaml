@@ -211,8 +211,8 @@ importers:
         specifier: latest
         version: link:../../components
       '@unocss/preset-icons':
-        specifier: ^0.50.6
-        version: 0.50.6
+        specifier: ^0.51.0
+        version: 0.51.0
       '@unocss/preset-wind':
         specifier: ^0.50.6
         version: 0.50.6
@@ -357,8 +357,8 @@ importers:
         specifier: workspace:*
         version: link:../templates/nova
       '@unocss/preset-icons':
-        specifier: ^0.50.6
-        version: 0.50.6
+        specifier: ^0.51.0
+        version: 0.51.0
       '@unocss/preset-wind':
         specifier: ^0.50.6
         version: 0.50.6
@@ -418,8 +418,8 @@ importers:
         specifier: ^2.3.4
         version: 2.3.4
       '@unocss/preset-icons':
-        specifier: ^0.50.6
-        version: 0.50.6
+        specifier: ^0.51.0
+        version: 0.51.0
       '@unocss/preset-wind':
         specifier: ^0.50.6
         version: 0.50.6
@@ -506,8 +506,8 @@ importers:
         specifier: ^2.3.4
         version: 2.3.4
       '@unocss/preset-icons':
-        specifier: ^0.50.6
-        version: 0.50.6
+        specifier: ^0.51.0
+        version: 0.51.0
       '@unocss/preset-wind':
         specifier: ^0.50.6
         version: 0.50.6
@@ -1786,6 +1786,10 @@ packages:
     resolution: {integrity: sha512-WMIp8xr7YSlID2whqfRGLwagp59e6u4ckPACEpoDOW8sTeSPRZm54hxPhuWXD1SQuqcwHPMtM9nzGD8UOnqQxA==}
     dev: false
 
+  /@unocss/core@0.51.0:
+    resolution: {integrity: sha512-uU/dvbrAcRqx5j7Qm19aewtRZr1QQ0Lg6mQhfCYhXQdIlT4sjT8FtduCchWMYQdsAb/kh2eP0LXT5KAP1REnoQ==}
+    dev: false
+
   /@unocss/inspector@0.50.6:
     resolution: {integrity: sha512-6nX1YtaL67ohn/PfSSBv3npJ8qZcdc7S9X2zE6PUD/xhwtz7Bohx9I/KtmFdjJz5WeeGR7di0uYC6xsAcFLndQ==}
     dependencies:
@@ -1818,6 +1822,16 @@ packages:
     dependencies:
       '@iconify/utils': 2.1.5
       '@unocss/core': 0.50.6
+      ofetch: 1.0.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /@unocss/preset-icons@0.51.0:
+    resolution: {integrity: sha512-SSMEIxTqUnSa7vZvoAbCxHA+CQwC4OtWTJsSERg1hcmhrARzFTUN6Uo74ILNXDRlM491g52kdhoEiyxa+rl4oQ==}
+    dependencies:
+      '@iconify/utils': 2.1.5
+      '@unocss/core': 0.51.0
       ofetch: 1.0.1
     transitivePeerDependencies:
       - supports-color
